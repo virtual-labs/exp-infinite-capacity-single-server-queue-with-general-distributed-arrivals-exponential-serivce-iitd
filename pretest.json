@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does 'GI' represent in the GI/M/1 queueing system?",
+      "answers": {
+        "a": "Gaussian distribution for arrivals",
+        "b": "General inter-arrival time distribution",
+        "c": "Geometric distribution for arrivals",
+        "d": "Global service rate distribution"
+      },
+      "explanations": {
+        "a": "Incorrect. 'GI' does not represent Gaussian distribution for arrivals.",
+        "b": "Correct. 'GI' stands for general inter-arrival time distribution in the GI/M/1 queueing system.",
+        "c": "Incorrect. 'GI' does not represent geometric distribution for arrivals.",
+        "d": "Incorrect. 'GI' does not represent global service rate distribution."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the utilization factor 'ρ' affect the performance of a GI/M/1 queue?",
+      "answers": {
+        "a": "Higher ρ leads to lower average waiting times.",
+        "b": "Lower ρ leads to higher system stability.",
+        "c": "ρ does not affect the performance of the system.",
+        "d": "Higher ρ leads to higher probabilities of queue overflow."
+      },
+      "explanations": {
+        "a": "Incorrect. Higher utilization factor ('ρ') leads to higher average waiting times.",
+        "b": "Incorrect. Lower utilization factor ('ρ') generally leads to higher system stability.",
+        "c": "Incorrect. Utilization factor ('ρ') significantly affects the performance of the system.",
+        "d": "Correct. Higher utilization factor ('ρ') leads to higher probabilities of queue overflow and poorer system performance."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a GI/M/1 queueing system, what distribution characterizes the service times?",
+      "answers": {
+        "a": "Gaussian distribution",
+        "b": "Poisson distribution",
+        "c": "Exponential distribution",
+        "d": "Uniform distribution"
+      },
+      "explanations": {
+        "a": "Incorrect. Service times in a GI/M/1 queue are not typically characterized by a Gaussian distribution.",
+        "b": "Incorrect. Poisson distribution is commonly associated with arrival processes, not service times.",
+        "c": "Correct. The service times in a GI/M/1 queueing system follow an exponential distribution.",
+        "d": "Incorrect. Uniform distribution is not typically used to model service times in queueing systems."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens to the average waiting time in a GI/M/1 queue as the variability of inter-arrival times increases?",
+      "answers": {
+        "a": "It decreases.",
+        "b": "It remains constant.",
+        "c": "It increases.",
+        "d": "It depends on the service rate."
+      },
+      "explanations": {
+        "a": "Incorrect. The average waiting time typically increases as the variability of inter-arrival times increases.",
+        "b": "Incorrect. The average waiting time is influenced by the variability of inter-arrival times.",
+        "c": "Correct. The average waiting time increases as the variability of inter-arrival times increases in a GI/M/1 queueing system.",
+        "d": "Incorrect. The average waiting time is primarily affected by the variability of inter-arrival times."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
